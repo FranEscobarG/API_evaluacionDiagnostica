@@ -13,6 +13,7 @@
     Las tecnologías utilizadas en esta API fueron Node.js (express) y esta desarrollada en una platilla para TypeScript, además la base de datos utilizada fue MySQL.<br><br>
     Para el correcto funcionamiento de esta API se requiere de instalar todas las librerías proporcionadas en la secciones de <b>Instalación</b>. Además de el correcto uso de la base da datos MySQL proporcionada en la sección <b>BD</b>, y su configuración mediante las variables de entorno proporcionadas en el archivo <b>.env.example</b>
 </p>
+
 ```bash
 MYSQL_HOST=
 MYSQL_PORT=
@@ -29,14 +30,15 @@ MYSQL_DATABASE=
 
 
 ## Instalación
-####Instalación de librerias necesarias.
+#### Instalación de librerias necesarias.
+
 ```bash
 npm install express
 npm install body-parser dotenv fs mongoose multer mysql2
 ```
 
 ## BD
-#### Mysql
+#### Scrip de la base de datos MyQSL.
 
 ```bash
 CREATE DATABASE floreria_BD;
